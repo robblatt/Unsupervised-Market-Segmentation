@@ -56,3 +56,24 @@ Cluster 5: This cluster represents 1.18% of the population and -0.16% of Total R
 
 ### Clusters visualized
 ![clusters, mapped in a 3d space](https://raw.githubusercontent.com/robblatt/unsupervised_learning_market_segmentation_clustering_applied/master/3d%20clusters.png)
+
+#### Files
+
+* Combined Data.ipynb
+  * Final notebook where the complete work and pipelines was done
+*  transformation.py
+  * function used to perform all data cleaning and feature engineering
+* online_retail_data.xlsx
+  * The original data, changed to **raw data.csv** in order to speed up the importing process
+* raw data.csv
+  * see above
+*	Rob Discovery.ipynb
+  * The notebook used to perform EDA
+* One Complete Cycle.ipynb
+  * Used as a proof of concept
+*  market_segmentation.ipynb
+  * EDA and trials of data manipulation
+* log_imgs/
+  * store png files to create an animated gif of the log transformed data
+* non_log_imgs/
+  * same as log_imgs/ but for the pre-transformed data
